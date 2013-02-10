@@ -1,0 +1,3 @@
+<h1>Edit Book Detail</h1>
+<%= form_for @book,:url =>{:action => "update"}, :method => "get", :id => @book do |f| %>
+<% end %>
