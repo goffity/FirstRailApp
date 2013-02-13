@@ -1,4 +1,12 @@
 FirstRailsApp::Application.routes.draw do
+  get "subject/list"
+
+  get "subject/show"
+
+  get "subject/create"
+  
+  put "subject/create"
+
   get "book/list"
 
   get "book/show"
